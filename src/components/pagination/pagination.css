@@ -1,0 +1,42 @@
+h1{
+    padding-bottom: 30px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pagination-btn{
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: rgb(91, 75, 133);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.pagination-btn:disabled{
+    background-color: rgb(165, 155, 177);
+    color: white;
+    cursor: not-allowed;
+}
+.pagination-btn.active{
+    background-color: rgb(31, 34, 33);
+}
+
+.list-items{
+    list-style: none;
+    display: grid;
+    gap: 25px;
+    max-width: 500px;
+    padding: 0;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.list-items li{
+    padding: 20px;
+    background-color: rgb(202, 194, 215);
+}
