@@ -1,0 +1,16 @@
+
+.digital-clock{
+    padding: 30px;
+    margin: 0px;
+    justify-items: center;
+}
+
+.time{
+    font-size:xx-large;
+    
+}
+
+.date{
+    padding-top:10px ;
+    font-size: x-large;
+}
