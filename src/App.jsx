@@ -4,6 +4,7 @@ import PaginationTest from "./components/pagination/test";
 import Clock from "./components/digatal-clock";
 import CountdownTimerTest from "./components/countdown-timer/test";
 import StepProgressBarTest from "./components/step-progress-bar/test";
+import Stopwatch from "./components/stopwatch/stopwatch";
 function App() {
   return (
     <>
@@ -11,7 +12,8 @@ function App() {
         {/* <PaginationTest /> */}
       {/* <Clock/> */}
         {/* <CountdownTimerTest/> */}
-        <StepProgressBarTest/>
+        {/* <StepProgressBarTest/> */}
+        <Stopwatch/>
       </div>
     </>
   );
