@@ -6,6 +6,7 @@ import CountdownTimerTest from "./components/countdown-timer/test";
 import StepProgressBarTest from "./components/step-progress-bar/test";
 import Stopwatch from "./components/stopwatch/stopwatch";
 import Counter from "./components/counter/counter"
+import ClickOutsideDropdown from "./components/dropdown-close/click"
 function App() {
   return (
     <>
@@ -15,7 +16,8 @@ function App() {
         {/* <CountdownTimerTest/> */}
         {/* <StepProgressBarTest/> */}
         {/* <Stopwatch/> */}
-        <Counter/>
+        {/* <Counter/> */}
+        <ClickOutsideDropdown/>
       </div>
     </>
   );
