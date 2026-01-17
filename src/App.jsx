@@ -7,6 +7,7 @@ import StepProgressBarTest from "./components/step-progress-bar/test";
 import Stopwatch from "./components/stopwatch/stopwatch";
 import Counter from "./components/counter/counter"
 import ClickOutsideDropdown from "./components/dropdown-close/click"
+import RandomQuoteGenerator from "./components/random-quote-generator";
 function App() {
   return (
     <>
@@ -17,7 +18,8 @@ function App() {
         {/* <StepProgressBarTest/> */}
         {/* <Stopwatch/> */}
         {/* <Counter/> */}
-        <ClickOutsideDropdown/>
+        {/* <ClickOutsideDropdown/> */}
+        <RandomQuoteGenerator/>
       </div>
     </>
   );
