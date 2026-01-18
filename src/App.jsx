@@ -8,6 +8,7 @@ import Stopwatch from "./components/stopwatch/stopwatch";
 import Counter from "./components/counter/counter"
 import ClickOutsideDropdown from "./components/dropdown-close/click"
 import RandomQuoteGenerator from "./components/random-quote-generator";
+import ButtonRippleEffect from "./components/button-ripple-effect";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
         {/* <Stopwatch/> */}
         {/* <Counter/> */}
         {/* <ClickOutsideDropdown/> */}
-        <RandomQuoteGenerator/>
+        {/* <RandomQuoteGenerator/> */}
+        <ButtonRippleEffect />
       </div>
     </>
   );
