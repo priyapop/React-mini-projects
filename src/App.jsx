@@ -9,6 +9,7 @@ import Counter from "./components/counter/counter"
 import ClickOutsideDropdown from "./components/dropdown-close/click"
 import RandomQuoteGenerator from "./components/random-quote-generator";
 import ButtonRippleEffect from "./components/button-ripple-effect";
+import DragAndDropFeature from "./components/drag-and-drop";
 function App() {
   return (
     <>
@@ -21,7 +22,8 @@ function App() {
         {/* <Counter/> */}
         {/* <ClickOutsideDropdown/> */}
         {/* <RandomQuoteGenerator/> */}
-        <ButtonRippleEffect />
+        {/* <ButtonRippleEffect /> */}
+        <DragAndDropFeature />
       </div>
     </>
   );
