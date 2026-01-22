@@ -10,6 +10,7 @@ import ClickOutsideDropdown from "./components/dropdown-close/click"
 import RandomQuoteGenerator from "./components/random-quote-generator";
 import ButtonRippleEffect from "./components/button-ripple-effect";
 import DragAndDropFeature from "./components/drag-and-drop";
+import FormValidation from "./components/form-validation";
 function App() {
   return (
     <>
@@ -23,7 +24,8 @@ function App() {
         {/* <ClickOutsideDropdown/> */}
         {/* <RandomQuoteGenerator/> */}
         {/* <ButtonRippleEffect /> */}
-        <DragAndDropFeature />
+        {/* <DragAndDropFeature /> */}
+        <FormValidation />
       </div>
     </>
   );
