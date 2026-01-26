@@ -11,6 +11,7 @@ import RandomQuoteGenerator from "./components/random-quote-generator";
 import ButtonRippleEffect from "./components/button-ripple-effect";
 import DragAndDropFeature from "./components/drag-and-drop";
 import FormValidation from "./components/form-validation";
+import OtpInput from "./components/otp-input";
 function App() {
   return (
     <>
@@ -25,7 +26,8 @@ function App() {
         {/* <RandomQuoteGenerator/> */}
         {/* <ButtonRippleEffect /> */}
         {/* <DragAndDropFeature /> */}
-        <FormValidation />
+        {/* <FormValidation /> */}
+        <OtpInput />
       </div>
     </>
   );
