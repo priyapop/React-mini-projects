@@ -12,6 +12,7 @@ import ButtonRippleEffect from "./components/button-ripple-effect";
 import DragAndDropFeature from "./components/drag-and-drop";
 import FormValidation from "./components/form-validation";
 import OtpInput from "./components/otp-input";
+import GoogleOAuthLogin from "./components/google-auth";
 function App() {
   return (
     <>
@@ -27,7 +28,8 @@ function App() {
         {/* <ButtonRippleEffect /> */}
         {/* <DragAndDropFeature /> */}
         {/* <FormValidation /> */}
-        <OtpInput />
+        {/* <OtpInput /> */}
+        <GoogleOAuthLogin />
       </div>
     </>
   );
